@@ -17,7 +17,7 @@ leitura consolidada agora precisa construí-la.
 
 | Fonte | Uso |
 |---|---|
-| BCB — Banco de dados de consórcios (`bcb.gov.br/fis/consorcios`) | Base principal: "Dados Consolidados" > "Segmentos Consolidados" |
+| [BCB — Banco de dados de consórcios](https://www.bcb.gov.br/estabilidadefinanceira/consorciobd) | Base principal: "Dados Consolidados" > "Segmentos Consolidados" |
 | BCB — "Significado dos campos & Métricas" | Dicionário de dados e fórmula oficial de cada campo |
 | BCB — Panorama do Sistema de Consórcios (2019–2024, PDF) | Validação dos números calculados aqui |
 
