@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: consorcio-db
+    environment:
+      POSTGRES_DB: consorcio
+      POSTGRES_USER: danilo
+      POSTGRES_PASSWORD: consorcio_local
+    ports:
+      - "5433:5432"   # 5433 no host para não conflitar com o SQL Server
+    volumes:
+      - postgres_dados:/var/lib/postgresql/data
+      - .:/projeto:ro   # projeto visível no container em /projeto
+
+volumes:
+  postgres_dados:
