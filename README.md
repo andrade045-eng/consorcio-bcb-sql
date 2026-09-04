@@ -114,16 +114,17 @@ Sistema de Consórcios* do Banco Central, data-base dezembro de 2024
 | Recorte | Calculado | Panorama BCB | Confere |
 |---|---|---|---|
 | Total do sistema | 48,6% | 48,6% | sim |
-| Bens imóveis (seg. 1) | — | 56,9% | rodar Q8 |
-| Automóveis (seg. 3) | — | 46,8% | rodar Q8 |
+| Bens imóveis (segmento 1) | 56,9% | 56,9% | sim |
+| Automóveis (segmento 3) | 46,8% | 46,8% | sim |
+| Motocicletas (segmento 4) | 48,1% | 48,1% | sim |
 
-O total confere. A carga e a métrica reproduzem o número oficial.
+Os quatro recortes reproduzem exatamente os valores publicados. A
+carga, a definição de cotas ativas (contempladas + não contempladas) e
+o cálculo do índice estão corretos.
 
-Sobre os recortes por segmento: o Panorama usa subsegmentos
-(automóveis, motocicletas, veículos pesados) que não correspondem
-exatamente aos códigos de segmento 1 a 6 do arquivo. A correspondência
-mais próxima é segmento 1 para imóveis e segmento 3 para automóveis;
-divergência pequena nesses recortes é esperada e não invalida a carga.
+A conferência também confirmou a correspondência entre os códigos de
+segmento do arquivo e os subsegmentos usados pelo Panorama: o segmento
+3 corresponde a automóveis e o 4 a motocicletas.
 
 ## Limitações
 
